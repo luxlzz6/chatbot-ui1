@@ -32,7 +32,8 @@ export async function POST(request: Request) {
     if (embeddingsProvider === "openai") {
       const openai = new OpenAI({
         apiKey: profile.openai_api_key || "",
-        organization: profile.openai_organization_id
+        organization: profile.openai_organization_id,
+        baseURL: profile.openai_api_host || ""
       })
 
       const response = await openai.embeddings.create({

@@ -957,6 +957,7 @@ export interface Database {
           image_url: string
           mistral_api_key: string | null
           openai_api_key: string | null
+          openai_api_host: string | null
           openai_organization_id: string | null
           openrouter_api_key: string | null
           perplexity_api_key: string | null
@@ -983,6 +984,7 @@ export interface Database {
           image_url: string
           mistral_api_key?: string | null
           openai_api_key?: string | null
+          openai_api_host: string | null
           openai_organization_id?: string | null
           openrouter_api_key?: string | null
           perplexity_api_key?: string | null
@@ -1009,6 +1011,7 @@ export interface Database {
           image_url?: string
           mistral_api_key?: string | null
           openai_api_key?: string | null
+          openai_api_host: string | null
           openai_organization_id?: string | null
           openrouter_api_key?: string | null
           perplexity_api_key?: string | null

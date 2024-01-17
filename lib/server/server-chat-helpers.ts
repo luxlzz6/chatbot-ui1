@@ -41,6 +41,7 @@ function addApiKeysToProfile(profile: Tables<"profiles">) {
   // map VALID_KEYS to profile attributes
   const apiKeys = {
     [VALID_KEYS.OPENAI_API_KEY]: "openai_api_key",
+    [VALID_KEYS.OPENAI_API_HOST]: "openai_api_host",
     [VALID_KEYS.ANTHROPIC_API_KEY]: "anthropic_api_key",
     [VALID_KEYS.GOOGLE_GEMINI_API_KEY]: "google_gemini_api_key",
     [VALID_KEYS.MISTRAL_API_KEY]: "mistral_api_key",

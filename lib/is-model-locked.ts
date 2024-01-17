@@ -57,6 +57,7 @@ export const isModelLocked = async (
 export const providerToKeyMap = {
   azure: VALID_KEYS.AZURE_OPENAI_API_KEY,
   openai: VALID_KEYS.OPENAI_API_KEY,
+  openai: VALID_KEYS.OPENAI_API_HOST,
   google: VALID_KEYS.GOOGLE_GEMINI_API_KEY,
   anthropic: VALID_KEYS.ANTHROPIC_API_KEY,
   mistral: VALID_KEYS.MISTRAL_API_KEY,
